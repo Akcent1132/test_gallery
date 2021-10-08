@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Damion|Muli:400,600');
+$background-color: #78e2e6;
+$ruler: 16px;
+$color-red: #AE1100;
+$color-bg: #EBECF0;
+$color-shadow: #BABECC;
+$color-white: #FFF;
+.loader {
+
+  padding: 30px;
+  margin-bottom: 5px;
+  padding: 16px 32px;
+  color: #fff;
+  height:100px;
+  background: linear-gradient(90deg, rgb(59, 229, 190), rgb(82, 94, 182));
+  box-shadow: 0 2px 20px -5px #253c77;
+  input[type="text"]{font: 15px/24px "Lato", Arial, sans-serif; color: #333; width: 100%; box-sizing: border-box; letter-spacing: 1px;}
+
+  &__form {
+
+      text-align: center;
+    &__input {
+      width: 100%;
+      height: inherit;
+      margin-right: 10px;
+      margin-top: 10px;
+      z-index: 1;
+      text-align: center;
+      position:relative;
+  	  font-size: 1.5em;
+  	  padding: 3px;
+  	  display: inline-block;
+  	  border-radius: 9999em;
+    }
+
+    &__button {
+      z-index: 1;
+      font-weight: bold;
+      margin-top: 12px;
+      transition: all 0.2s ease-in-out;
+      cursor: pointer;
+      font-size: 17px;
+      letter-spacing: 1px;
+      padding: 13px 50px 13px;
+      outline: 0;
+      border: 1px solid black;
+      border-radius: 10px;
+      position: relative;
+      background-color: rgba(0, 0, 0, 0);
+    }
+
+  }
+}

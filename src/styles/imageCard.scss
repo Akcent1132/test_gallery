@@ -1,0 +1,25 @@
+.card {
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__image {
+    background-image: url('../assets/placeholder.png');
+    background-size: cover;
+  }
+
+  &__delete-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+
+    z-index: 1;
+    opacity: 0.3;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
